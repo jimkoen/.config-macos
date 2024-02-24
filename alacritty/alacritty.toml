@@ -1,0 +1,12 @@
+shell={ program = "login", args = ["-fp", "lucca"] }
+[env]
+TERM="xterm-256color"
+[font]
+normal={family="MesloLGS NF", style="Regular"}
+[window]
+option_as_alt="OnlyRight"
+[keyboard]
+bindings = [
+    {key= "Q", mods= "Command", action= "None"},
+    {key= "W", mods= "Command", action= "None"}
+]
